@@ -1,0 +1,19 @@
+= Log4j_rails
+
+  Log4j_rails is a Rails plugin to enable Rails logging with Apache Log4j.
+
+  The core of the library has been taken from http://squaremasher.blogspot.com/2009/08/jruby-rails-and-log4j.html
+
+= Install
+
+  jruby script/plugin install git://github.com/calavera/log4j_rails.git
+
+= Usage
+
+  1. Configure Log4j in your server.
+
+  2. Add the name of the application's adapter into the environment constant:
+
+    ENV['LOG4J_ADAPTER_NAME'] = 'rails.log4j'
+  
+  3. Enjoy!
